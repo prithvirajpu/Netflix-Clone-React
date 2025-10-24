@@ -28,31 +28,12 @@ readme: |
 
   ---
 
-  ## 📂 Folder Structure
-
-src/
-├── Components/
-│ ├── Navbar/
-│ ├── Banner/
-│ ├── Row/
-│ └── Footer/
-│
-├── Pages/
-│ ├── Home/
-│ ├── MovieDetails/
-│ └── Login/
-│
-├── assets/
-├── App.jsx
-└── main.jsx
-
----
 
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/react-netflix-clone.git
+   git clone https://github.com/prithvirajpu/Netflix-Clone-React.git
    ```
 2. **Navigate to the project folder**
    ```bash
@@ -70,15 +51,6 @@ src/
 
 ---
 
-## 📸 Preview
-
-| Home Page | Movie Details |
-|------------|---------------|
-| ![Home](./preview/home.png) | ![Details](./preview/details.png) |
-
-*(Add screenshots or GIFs here)*
-
----
 
 ## 💡 Learning Outcomes
 
@@ -103,8 +75,8 @@ Through this project, I learned how to:
 ## 🧑‍💻 Author
 
 **Prithviraj P.U**  
-📧 your-email@example.com  
-🌐 [GitHub Profile](https://github.com/your-username)
+📧 prithvirajpu999@gmail.com  
+🌐 [GitHub Profile](https://github.com/prithvirajpu)
 
 ---
 
