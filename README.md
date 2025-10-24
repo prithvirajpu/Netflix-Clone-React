@@ -1,16 +1,118 @@
-# React + Vite
+readme: |
+  # 🎬 React Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  A **Netflix Clone** built using **React + Vite**, replicating the sleek design and functionality of Netflix with responsive layouts, API-driven movie data, and smooth interactions.
 
-Currently, two official plugins are available:
+  ---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## 🚀 Features
 
-## React Compiler
+  ✅ Dynamic movie and TV show listings (Trending, Top Rated, Originals, etc.)  
+  ✅ Responsive UI for all devices  
+  ✅ Integrated **TMDB API** for live movie data  
+  ✅ Category-based browsing  
+  ✅ Hover animations & smooth transitions  
+  ✅ Modern UI with reusable components  
+  ✅ Fast performance powered by **Vite**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  ---
 
-## Expanding the ESLint configuration
+  ## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  | Category | Technology |
+  |-----------|-------------|
+  | 💻 Frontend | React + Vite |
+  | 🎨 Styling | CSS / Tailwind CSS |
+  | 🌐 API | TMDB (The Movie Database) |
+  | 🔧 Tools | Axios, React Router, ESLint |
+
+  ---
+
+  ## 📂 Folder Structure
+
+src/
+├── Components/
+│ ├── Navbar/
+│ ├── Banner/
+│ ├── Row/
+│ └── Footer/
+│
+├── Pages/
+│ ├── Home/
+│ ├── MovieDetails/
+│ └── Login/
+│
+├── assets/
+├── App.jsx
+└── main.jsx
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/react-netflix-clone.git
+   ```
+2. **Navigate to the project folder**
+   ```bash
+   cd react-netflix-clone
+   ```
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit ➡️ **http://localhost:5173**
+
+---
+
+## 📸 Preview
+
+| Home Page | Movie Details |
+|------------|---------------|
+| ![Home](./preview/home.png) | ![Details](./preview/details.png) |
+
+*(Add screenshots or GIFs here)*
+
+---
+
+## 💡 Learning Outcomes
+
+Through this project, I learned how to:
+- Work with APIs and handle asynchronous data  
+- Build reusable, responsive React components  
+- Manage routes using React Router  
+- Style complex layouts efficiently  
+- Optimize a React app with Vite
+
+---
+
+## 🧠 Future Enhancements
+
+- 🔐 User authentication (Firebase / JWT)  
+- ❤️ Add to Favorites / Watchlist  
+- 🎞️ Trailer popups  
+- 🌙 Dark & Light theme toggle
+
+---
+
+## 🧑‍💻 Author
+
+**Prithviraj P.U**  
+📧 your-email@example.com  
+🌐 [GitHub Profile](https://github.com/your-username)
+
+---
+
+## 📄 License
+
+This project is built for **learning purposes** and not for commercial use.  
+Feel free to fork and experiment 🚀
+
+---
+
+⭐ **If you like this project, don’t forget to star the repo!** ⭐
