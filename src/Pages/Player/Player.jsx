@@ -26,11 +26,11 @@ const Player = () => {
 
   return (
     <div className='player' >
-      <img onClick={()=>{if (window.history.length > 1) {
-    navigate(-1);
-  } else {
-    navigate('/'); 
-  }}} src={back_arrow} alt="" />
+      <img src={back_arrow}  onClick={()=>{if (window.history.length > 1) {
+          navigate(-1);
+        } else {
+          navigate('/'); 
+        }}} />
       <iframe 
       src={`https://www.youtube.com/embed/${apidata.key}`} 
       width='90%' height='90%' frameBorder="0"

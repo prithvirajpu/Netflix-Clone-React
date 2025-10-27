@@ -6,6 +6,7 @@ import bell from '../../assets/bell_icon.svg'
 import profile_img from '../../assets/profile_img.png'
 import dropdown from '../../assets/caret_icon.svg'
 import { logout } from '../../firebase'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const navRef=useRef();
@@ -24,11 +25,11 @@ const Navbar = () => {
       <div className="navbar-left">
         <img src={logo} alt="" />
         <ul>
-          <li>Home</li>
+          <li><Link to='/'> Home </Link></li>
           <li>Tv Shows</li>
           <li> Movies</li>
           <li>New & Popular</li>
-          <li>My List</li>
+          <li ><Link to='/watchlist'>My List </Link></li>
           <li>Browse by Languages</li> 
         </ul>
       </div>

@@ -19,6 +19,10 @@
  .navbar-left img{
     width: 90px;
  }
+  .navbar-left a{
+   color:white;
+   text-decoration: none;
+  }
  .navbar-left ul{
     display: flex;
     list-style: none;
